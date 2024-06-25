@@ -6,11 +6,7 @@
  */
 
 module.exports = {
-    transformer: {
-      babelTransformerPath: require.resolve('react-native-babel-transformer'),
-    },
-    resolver: {
-      sourceExts: ['jsx', 'js', 'ts', 'tsx', 'json'],
-    },
-  };
-  
+  transformer: {
+    babelTransformerPath: require.resolve('react-native-babel-transformer'),
+  },
+};
